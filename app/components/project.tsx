@@ -6,16 +6,18 @@ import unit from "../assist/WhatsApp Image 2025-10-29 at 8.22.32 PM (18).jpeg";
 import data from "../assist/WhatsApp Image 2025-10-29 at 8.22.32 PM (19).jpeg";
 import html from "../assist/WhatsApp Image 2025-10-29 at 8.22.32 PM (16).jpeg"
 import password from "../assist/WhatsApp Image 2025-10-29 at 8.22.32 PM (17).jpeg";
-
+import todo from "../assist/WhatsApp Image 2026-05-22 at 12.04.24 AM.jpeg"
+import book from "../assist/WhatsApp Image 2026-06-03 at 11.23.38 PM.jpeg"
 export default function Projects() {
   const image = [
+    { src: todo, alt: "Todo App", text: "Todo App", link: "https://todo-app1-eosin.vercel.app" },
+    { src: book, alt: "Physical AI Textbook", text: "Physical AI Textbook", link: "https://physical-ai-textbook-eight.vercel.app/" },
     { src: furniture, alt: "Furniture Buy Project", text: "Furniture Buy", link: "https://online-furniture-1.vercel.app/" },
     { src: web, alt: "Dynamic Ecommerce website", text: "Dynamic Ecommerce Store", link: "https://dynamic-ecommerce-store-01.vercel.app/" },
     { src: html, alt: "HTML Project", text: "Online Shopping Center", link: "https://dynamic-online-shopping-center.vercel.app/" },
     { src: unit, alt: "Unit Converter Project", text: "Unit Converter", link: "https://ilsafatima1-unit-convertor-unit-convertor-ziboza.streamlit.app/" },
     { src: password, alt: "Password Strength Meter Project", text: "Password Strength Meter", link: "https://ilsafatima1-password-strength-meter-passwordchecker-8czgpm.streamlit.app/" },
     { src: data, alt: "Data Sweeper Project", text: "Data Sweeper", link: "https://ilsafatima1-data-sweeper-data-sweeper-app-agoboy.streamlit.app/" },
-    
   ];
 
   return (

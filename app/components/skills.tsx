@@ -1,4 +1,5 @@
 import Image from "next/image";
+import mysql from "../assist/mysql.png"
 import html from "../assist/html.png";
 import css from "../assist/css-3.png";
 import typescript from "../assist/WhatsApp Image 2025-10-29 at 8.22.32 PM (6).jpeg";
@@ -27,7 +28,8 @@ export default function Skills() {
     { name: "Sanity", img: sanity, bg: "bg-orange-700/30", text: "text-orange-400" },
     { name: "Vercel", img: vercel, bg: "bg-black/30", text: "text-black" },
     { name: "React", img: react, bg: "bg-blue-700/30", text: "text-blue-400" },
-    {name: "Streamlit", img: Stream, bg: "bg-red-700/30", text: "text-red-400"}
+    {name: "Streamlit", img: Stream, bg: "bg-red-700/30", text: "text-red-400"},
+    {name: "MySQL", img: mysql, bg: "bg-white-700/30", text: "text-white-400"}
   ];
 
   return (
