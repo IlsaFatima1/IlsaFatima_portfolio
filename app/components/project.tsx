@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import gharhub from "../assist/WhatsApp Image 2026-11-11 at 10.58.39 PM.jpeg"
 import furniture from "../assist/WhatsApp Image 2025-10-29 at 8.22.32 PM (14).jpeg";
 import web from "../assist/WhatsApp Image 2025-10-29 at 8.22.32 PM (15).jpeg";
 import unit from "../assist/WhatsApp Image 2025-10-29 at 8.22.32 PM (18).jpeg";
@@ -10,6 +11,7 @@ import todo from "../assist/WhatsApp Image 2026-05-22 at 12.04.24 AM.jpeg"
 import book from "../assist/WhatsApp Image 2026-06-03 at 11.23.38 PM.jpeg"
 export default function Projects() {
   const image = [
+    { src: gharhub, alt: "Real estate website", text: " Gharhub Real estate website", link: "https://gharhub.site" },
     { src: todo, alt: "Todo App", text: "Todo App", link: "https://todo-app1-eosin.vercel.app" },
     { src: book, alt: "Physical AI Textbook", text: "Physical AI Textbook", link: "https://physical-ai-textbook-eight.vercel.app/" },
     { src: furniture, alt: "Furniture Buy Project", text: "Furniture Buy", link: "https://online-furniture-1.vercel.app/" },

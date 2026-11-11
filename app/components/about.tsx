@@ -6,11 +6,13 @@ export default function About() {
     >
       <h1 className="text-4xl sm:text-5xl md:text-6xl font-black m-0">About Me</h1>
       <p className="text-base sm:text-lg md:text-xl py-4 text-gray-300 max-w-3xl m-0">
-        I am <b>full Stack Developer</b>, a highly detail-oriented individual blending a strong academic background in the medical intermediate field with advanced IT skills.
-        My journey is focused on creating seamless user experiences and exploring the frontier of technology.
-        I possess proven hands-on skills in modern web development, having mastered Next.js, TypeScript, and Python.
-        Crucially, I have also developed expertise in emerging technologies, including Agentic AI and Prompt Engineering.
-        I am actively seeking an entry-level opportunity where I can leverage my diverse technical knowledge in a collaborative and dynamic environment to drive impactful, data-informed solutions and continue to grow my full-stack capabilities.
+        I am a <b>Full Stack Developer and AI Agentic Developer</b> passionate about building modern, scalable, and intelligent web applications. I specialize in developing responsive user interfaces and robust backend systems using technologies such as Next.js, React, TypeScript, Python, and FastAPI. <br />
+
+My technical expertise extends beyond traditional web development into <b>Agentic AI, OpenAI Agents SDK, Model Context Protocol (MCP), Retrieval-Augmented Generation (RAG), and Prompt Engineering</b>. I enjoy exploring emerging AI technologies and integrating intelligent solutions into real-world applications.<br />
+
+Through hands-on projects like GharHub, an AI-powered Todo Chatbot, and a Physical AI & Humanoid Robotics RAG Textbook, I have gained practical experience in full-stack development, database integration, API development, and AI-powered systems.<br />
+
+I am continuously learning, solving technical challenges, and turning ideas into functional products. I am currently seeking an entry-level or junior opportunity where I can contribute my skills, collaborate with talented developers, work on meaningful projects, and grow as a Full Stack and AI Developer.
       </p>
     </section>
   );
